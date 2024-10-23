@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import math
 import serial
 
-model = YOLO("best.pt")
+model = YOLO("model.pt")
 
 cap = cv2.VideoCapture(0)
 
